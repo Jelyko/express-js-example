@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+    express:
+        build: .
+        image: registry.jelyko.com/express-js-example:1.0.0
+        ports:
+            - 3001:3000
